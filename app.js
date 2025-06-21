@@ -1,6 +1,5 @@
 const menu = document.querySelector('.menu');
 const navigation = document.querySelector('.navigation');
-const mode = document.querySelector('#mode');
 const  i = document.querySelectorAll('i');
 
 menu.addEventListener('click', function (){
