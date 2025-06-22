@@ -14,7 +14,7 @@ body.active{
     color: rgb(242 242 242);
 }
 body.active header{
-     background-color: rgb(185, 185, 185) ;
+     background-color: gray ;
     /* color: rgb(242 242 242); */
 }
 
