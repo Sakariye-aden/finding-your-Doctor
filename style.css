@@ -95,8 +95,8 @@ ul li a:hover{
     padding-inline: 30px;
 }
 .content h2 {
-   font-size: 3.5rem;
-   font-weight: 800;
+   font-size: 3rem;
+   font-weight: 700;
    color: rgb(57, 57, 240);
 } 
 .content{
@@ -109,8 +109,8 @@ ul li a:hover{
 
 }
 .content h3{
-   font-size: 3.5rem;
-   font-weight: 800;
+   font-size: 3rem;
+   font-weight: 700;
    color: black;
 }
 .content P{
