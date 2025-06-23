@@ -14,8 +14,14 @@ body.active{
     color: rgb(242 242 242);
 }
 body.active header{
-     background-color: gray ;
-    /* color: rgb(242 242 242); */
+     background-color:  rgba(36 37 40);
+    color: rgb(242 242 242);
+}
+body.active header a , body.active #mode{
+    color: #fff;
+}
+body.active .bars{
+    background-color: #fff;
 }
 
 
@@ -34,9 +40,10 @@ header{
     top: 0px;
 }
 .logo{
-    color: rgb(116, 20, 206);
+    /* color: rgb(116, 20, 206); */
     font-family: "Unbounded", sans-serif;
     letter-spacing: 2px;
+    font-size: 2rem;
 }
 .navigation{
     display: flex;
@@ -98,7 +105,7 @@ ul li a:hover{
      flex-direction: column;
      align-items: flex-start;
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
 
 }
 .content h3{
@@ -138,7 +145,7 @@ ul li a:hover{
         padding-left: 10px;
     }
     body.active .navigation{
-        background-color: rgb(185, 185, 185) ;
+        background-color: rgba(36 37 40);
     }
     .navigation{
          width: 90%;
