@@ -81,9 +81,7 @@ ul li a:hover{
     margin: 3px;
     border-radius: 10px;
 }
-
 #mode{
-    /* border: 1px solid #fff; */
     margin-inline: 5px;
     cursor: pointer;
     border-radius: 3px;
@@ -156,6 +154,12 @@ ul li a:hover{
     font-weight: 300;
     text-align: center;
 }
+.second-one{
+    display: flex;
+}
+
+
+
 
 
 
