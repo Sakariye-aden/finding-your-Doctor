@@ -55,6 +55,86 @@ const data = [
        par:'Advanced medicine. Personalized treatment.'
     }     
 ]
+
+// arrays of doctors
+let doct= [
+   {
+    Id:Date.now(),
+    name:'Dr abdi',
+    specialist:'General doctor',
+    src:'https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGRvY3RvcnN8ZW58MHx8MHx8fDA%3D',
+    experience:'i have more experience in general desieases'
+   },
+   {
+    Id:Date.now(),
+    name:'Dr Omer',
+    specialist:'Inner specialist',
+    src:'https://media.istockphoto.com/id/2205091537/photo/young-doctor-smiling-with-stethoscope-and-lab-coat.webp?a=1&b=1&s=612x612&w=0&k=20&c=GgpvCNZEB5NyVOeac5M_MUbIM_Xk91GrPevPKlNubgw=',
+    experience:'i have more experience in general desieases'
+   },
+   {
+    Id:Date.now(),
+    name:'Dr abdi',
+    specialist:'Dermatologist',
+    experience: 'Treats skin, hair, and nail conditions such as acne, eczema, and skin cancer with both medical and cosmetic solutions.',
+    src:'https://media.istockphoto.com/id/956401176/photo/portrait-of-happy-general-practitioner-pointing-with-finger.jpg?s=612x612&w=0&k=20&c=GOtyMLBlxffgau4f3brMNdkRJsd5jvJgxg-mNjpVF_w='
+   },
+   {
+    Id:Date.now(),
+    name:'Dr abdi',
+    specialist: 'Cardiologist',
+    experience: 'Expert in diagnosing and treating heart-related conditions such as hypertension, arrhythmias, and heart failure.',
+    src:'https://media.istockphoto.com/id/956401176/photo/portrait-of-happy-general-practitioner-pointing-with-finger.jpg?s=612x612&w=0&k=20&c=GOtyMLBlxffgau4f3brMNdkRJsd5jvJgxg-mNjpVF_w='
+   },
+   {
+    Id:Date.now(),
+    name:'Dr abdi',
+    specialist: 'Pediatrician',
+    experience: 'Specializes in the care of infants, children, and adolescents, focusing on growth, development, and preventive care.',
+    src:'https://media.istockphoto.com/id/956401176/photo/portrait-of-happy-general-practitioner-pointing-with-finger.jpg?s=612x612&w=0&k=20&c=GOtyMLBlxffgau4f3brMNdkRJsd5jvJgxg-mNjpVF_w='
+   },
+   {
+    Id:Date.now(),
+    name:'Dr abdi',
+    specialist: 'Neurologist',
+    experience: 'Experienced in managing disorders of the brain and nervous system, including epilepsy, migraines, and stroke recovery.',
+    src:'https://media.istockphoto.com/id/956401176/photo/portrait-of-happy-general-practitioner-pointing-with-finger.jpg?s=612x612&w=0&k=20&c=GOtyMLBlxffgau4f3brMNdkRJsd5jvJgxg-mNjpVF_w='
+   },
+   {
+    Id:Date.now(),
+    name:'Dr abdi',
+    specialist: 'Ophthalmologist',
+    experience: 'Specialist in eye care, including vision correction, cataract surgery, and treatment of eye diseases.',
+    src:'https://media.istockphoto.com/id/956401176/photo/portrait-of-happy-general-practitioner-pointing-with-finger.jpg?s=612x612&w=0&k=20&c=GOtyMLBlxffgau4f3brMNdkRJsd5jvJgxg-mNjpVF_w='
+   },
+   {
+    Id:Date.now(),
+    name:'Dr abdi',
+    specialist: 'Gynecologist',
+    experience: 'Focused on women’s reproductive health, including menstrual issues, fertility, and prenatal care.',
+    src:'https://media.istockphoto.com/id/956401176/photo/portrait-of-happy-general-practitioner-pointing-with-finger.jpg?s=612x612&w=0&k=20&c=GOtyMLBlxffgau4f3brMNdkRJsd5jvJgxg-mNjpVF_w='
+   },
+   {
+    Id:Date.now(),
+    name:'Dr abdi',
+    specialist: 'Orthopedic Surgeon',
+    experience: 'Skilled in treating musculoskeletal issues such as fractures, joint pain, and sports injuries through surgical and non-surgical methods.',
+    src:'https://media.istockphoto.com/id/956401176/photo/portrait-of-happy-general-practitioner-pointing-with-finger.jpg?s=612x612&w=0&k=20&c=GOtyMLBlxffgau4f3brMNdkRJsd5jvJgxg-mNjpVF_w='
+   },
+   {
+    Id:Date.now(),
+    name:'Dr abdi',
+    specialist: 'Pulmonologist',
+    experience: 'Expert in respiratory system conditions such as asthma, COPD, and chronic bronchitis.',
+    src:'https://media.istockphoto.com/id/956401176/photo/portrait-of-happy-general-practitioner-pointing-with-finger.jpg?s=612x612&w=0&k=20&c=GOtyMLBlxffgau4f3brMNdkRJsd5jvJgxg-mNjpVF_w='
+   },
+   
+]
+
+
+
+
+
 let indx = 0;
 
 setInterval(() => {
