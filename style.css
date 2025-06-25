@@ -214,7 +214,7 @@ ul li a:hover{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
+    transition: all 0.3s ease-in-out;
 }
 .elements:hover{
     transform: scale(1.03);
