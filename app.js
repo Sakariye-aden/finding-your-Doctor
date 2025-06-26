@@ -195,7 +195,14 @@ function Handlebtn(btn ,id){
     btn.addEventListener('click', function(){
        const model  = document.querySelector("#model");
       const modelContent = document.querySelector('#model-content');
-      
+
+     model.style .display = 'block';
+     modelContent.innerHTML=`
+        <span id="spanId">&times;</span> 
+        <div>${Elem.name}</div>
+        <div>${Elem.specialist}</div>
+        <div>${Elem.experience}</div>
+     `
     })
 }
 
