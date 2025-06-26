@@ -67,48 +67,48 @@ let doct= [
     name:'Drs Yusra',
     specialist:'General doctor',
     src:'https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGRvY3RvcnN8ZW58MHx8MHx8fDA%3D',
-    experience:'i have more experience in general desieases'
+    experience:'Experienced in providing primary care for a wide range of common health issues, from infections and minor injuries to preventive screenings and lifestyle counseling. Known for building strong patient relationships and offering holistic, first-line medical support for individuals and families.'
    },
    {
     Id:Date.now(),
     name:'Dr Omer',
-    specialist:'Inner specialist',
+    specialist:'Internal Medicine',
     src:'https://media.istockphoto.com/id/2205091537/photo/young-doctor-smiling-with-stethoscope-and-lab-coat.webp?a=1&b=1&s=612x612&w=0&k=20&c=GgpvCNZEB5NyVOeac5M_MUbIM_Xk91GrPevPKlNubgw=',
-    experience:'i have more experience in general desieases'
+    experience:'Highly trained in diagnosing and managing complex adult health conditions involving multiple organ systems. With deep knowledge of internal organs and chronic diseases like diabetes, hypertension, and autoimmune disorders, this doctor provides comprehensive, long-term care and often serves as a consultant for other specialists.'
    },
    {
     Id:Date.now(),
     name:'Drs fatima',
     specialist:'Dermatologist',
-    experience: 'Treats skin, hair, and nail conditions such as acne, eczema, and skin cancer with both medical and cosmetic solutions.',
+    experience: 'Treats a wide range of skin, hair, and nail conditions. Offers both medical and cosmetic dermatology services, including acne treatment, mole evaluation, and skin cancer screening.',
     src:'https://plus.unsplash.com/premium_photo-1666299628536-7f8a9faf89e4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDExfHx8ZW58MHx8fHx8'
    },
    {
     Id:Date.now(),
     name:'Dr abdi',
     specialist: 'Cardiologist',
-    experience: 'Expert in diagnosing and treating heart-related conditions such as hypertension, arrhythmias, and heart failure.',
+    experience: 'Over 10 years of experience diagnosing and treating heart conditions such as arrhythmias, coronary artery disease, and hypertension. Skilled in using advanced imaging and non-invasive procedures to ensure accurate care.',
     src:'https://media.istockphoto.com/id/956401176/photo/portrait-of-happy-general-practitioner-pointing-with-finger.jpg?s=612x612&w=0&k=20&c=GOtyMLBlxffgau4f3brMNdkRJsd5jvJgxg-mNjpVF_w='
    },
    {
     Id:Date.now(),
     name:'Dr Kaynan',
     specialist: 'Pediatrician',
-    experience: 'Specializes in the care of infants, children, and adolescents, focusing on growth, development, and preventive care.',
+    experience: 'Dedicated to the health and development of children from infancy through adolescence. Experienced in managing childhood illnesses, vaccinations, and developmental screenings with a gentle, family-focused approach.',
     src:'https://plus.unsplash.com/premium_photo-1661306540580-1e6e374ecf9d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA0fHxtZW4lMjBkb2N0b3J8ZW58MHx8MHx8fDA%3D'
    },
    {
     Id:Date.now(),
     name:'Dr Yuusuf',
     specialist: 'Neurologist',
-    experience: 'Experienced in managing disorders of the brain and nervous system, including epilepsy, migraines, and stroke recovery.',
+    experience: 'Specializes in disorders of the brain and nervous system, including epilepsy, migraines, and stroke recovery. Known for combining clinical precision with empathetic patient care.',
     src:'https://plus.unsplash.com/premium_photo-1661551575837-c38f0df699b0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fHw%3D'
    },
    {
     Id:Date.now(),
     name:'Dr Ahmed',
     specialist: 'Ophthalmologist',
-    experience: 'Specialist in eye care, including vision correction, cataract surgery, and treatment of eye diseases.',
+    experience: 'Provides comprehensive eye care, including vision correction, cataract surgery, and treatment for glaucoma and retinal diseases. Committed to preserving and restoring sight.',
     src:'https://images.unsplash.com/photo-1612363584451-cd060fb62018?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHNwZWNpYWxpc3QlMjBkb2N0b3J8ZW58MHx8MHx8fDA%3D'
    },
    {
@@ -122,14 +122,14 @@ let doct= [
     Id:Date.now(),
     name:'Dr Hussein',
     specialist: 'Orthopedic Surgeon',
-    experience: 'Skilled in treating musculoskeletal issues such as fractures, joint pain, and sports injuries through surgical and non-surgical methods.',
+    experience: 'Expert in treating bone and joint conditions, including fractures, arthritis, and sports injuries. Performs both surgical and non-surgical interventions to restore mobility and reduce pain.',
     src:'https://media.istockphoto.com/id/1047519500/photo/tell-me-if-this-hurts-at-all.jpg?s=612x612&w=0&k=20&c=EPa4ifEa_6XcHHCwsZj_BYDPPeDNfkdQtajkdGi99ks='
    },
    {
     Id:Date.now(),
     name:'Dr faarax ',
     specialist: 'Pulmonologist',
-    experience: 'Expert in respiratory system conditions such as asthma, COPD, and chronic bronchitis.',
+    experience: 'Specialist in lung and respiratory conditions such as asthma, COPD, and chronic bronchitis. Uses advanced diagnostics and personalized treatment plans to improve breathing and quality of life.',
     src:'https://plus.unsplash.com/premium_photo-1658506671316-0b293df7c72b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZG9jdG9yfGVufDB8fDB8fHww'
    },
    
@@ -199,9 +199,9 @@ function Handlebtn(btn ,id){
      model.style .display = 'block';
      modelContent.innerHTML=`
         <span id="spanId">&times;</span> 
-        <div>${Elem.name}</div>
-        <div>${Elem.specialist}</div>
-        <div>${Elem.experience}</div>
+        <h3>Name : ${Elem.name}</h3>
+        <div>Specialist : ${Elem.specialist}</div>
+        <div> ${Elem.experience}</div>
      `
     })
 }
