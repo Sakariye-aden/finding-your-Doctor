@@ -183,9 +183,15 @@ searchform.addEventListener('submit',function(e){
    // selecting element
    let btn = el.querySelector('#fl-btn');
    let special = el.querySelector('#special');
-
+  
+   // this will handle the elements
+    Handlebtn(btn, special)
 })
-
+function Handlebtn(btn ,id){
+    let search = doct.filter(name => name.specialist == id.textContent)
+    const Elem =search.find(name => name)
+ 
+}
 
 
 
