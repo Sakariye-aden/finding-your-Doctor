@@ -201,7 +201,7 @@ function Handlebtn(btn ,id){
         <span id="spanId">&times;</span> 
         <h3>Name : ${Elem.name}</h3>
         <div>Specialist : ${Elem.specialist}</div>
-        <div> ${Elem.experience}</div>
+        <div>Experience ${Elem.experience}</div>
      `
     })
 }
