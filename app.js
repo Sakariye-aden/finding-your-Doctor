@@ -200,7 +200,7 @@ function Handlebtn(btn ,id){
      modelContent.innerHTML=`
         <span id="spanId">&times;</span> 
         <h3>Name : ${Elem.name}</h3>
-        <div>Specialist : ${Elem.specialist}</div>
+        <p>Specialist : ${Elem.specialist}</p>
         <div>Experience ${Elem.experience}</div>
      `
     })
