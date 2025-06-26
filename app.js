@@ -5,6 +5,10 @@ const  home = document.querySelector('#home');
 const  h2 = document.querySelector('#h2');
 const  h3 = document.querySelector('#h3');
 const  para = document.querySelector('#par');
+const  searchform = document.querySelector('#search-form');
+const  Input = document.querySelector('#Input');
+const  Divshow = document.querySelector('#Doctor-view');
+
 
 
 menu.addEventListener('click', function (){
@@ -60,7 +64,7 @@ const data = [
 let doct= [
    {
     Id:Date.now(),
-    name:'Dr abdi',
+    name:'Drs Yusra',
     specialist:'General doctor',
     src:'https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGRvY3RvcnN8ZW58MHx8MHx8fDA%3D',
     experience:'i have more experience in general desieases'
@@ -74,10 +78,10 @@ let doct= [
    },
    {
     Id:Date.now(),
-    name:'Dr abdi',
+    name:'Drs fatima',
     specialist:'Dermatologist',
     experience: 'Treats skin, hair, and nail conditions such as acne, eczema, and skin cancer with both medical and cosmetic solutions.',
-    src:'https://media.istockphoto.com/id/956401176/photo/portrait-of-happy-general-practitioner-pointing-with-finger.jpg?s=612x612&w=0&k=20&c=GOtyMLBlxffgau4f3brMNdkRJsd5jvJgxg-mNjpVF_w='
+    src:'https://plus.unsplash.com/premium_photo-1666299628536-7f8a9faf89e4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDExfHx8ZW58MHx8fHx8'
    },
    {
     Id:Date.now(),
@@ -88,45 +92,45 @@ let doct= [
    },
    {
     Id:Date.now(),
-    name:'Dr abdi',
+    name:'Dr Kaynan',
     specialist: 'Pediatrician',
     experience: 'Specializes in the care of infants, children, and adolescents, focusing on growth, development, and preventive care.',
-    src:'https://media.istockphoto.com/id/956401176/photo/portrait-of-happy-general-practitioner-pointing-with-finger.jpg?s=612x612&w=0&k=20&c=GOtyMLBlxffgau4f3brMNdkRJsd5jvJgxg-mNjpVF_w='
+    src:'https://plus.unsplash.com/premium_photo-1661306540580-1e6e374ecf9d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA0fHxtZW4lMjBkb2N0b3J8ZW58MHx8MHx8fDA%3D'
    },
    {
     Id:Date.now(),
-    name:'Dr abdi',
+    name:'Dr Yuusuf',
     specialist: 'Neurologist',
     experience: 'Experienced in managing disorders of the brain and nervous system, including epilepsy, migraines, and stroke recovery.',
-    src:'https://media.istockphoto.com/id/956401176/photo/portrait-of-happy-general-practitioner-pointing-with-finger.jpg?s=612x612&w=0&k=20&c=GOtyMLBlxffgau4f3brMNdkRJsd5jvJgxg-mNjpVF_w='
+    src:'https://plus.unsplash.com/premium_photo-1661551575837-c38f0df699b0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fHw%3D'
    },
    {
     Id:Date.now(),
-    name:'Dr abdi',
+    name:'Dr Ahmed',
     specialist: 'Ophthalmologist',
     experience: 'Specialist in eye care, including vision correction, cataract surgery, and treatment of eye diseases.',
-    src:'https://media.istockphoto.com/id/956401176/photo/portrait-of-happy-general-practitioner-pointing-with-finger.jpg?s=612x612&w=0&k=20&c=GOtyMLBlxffgau4f3brMNdkRJsd5jvJgxg-mNjpVF_w='
+    src:'https://images.unsplash.com/photo-1612363584451-cd060fb62018?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHNwZWNpYWxpc3QlMjBkb2N0b3J8ZW58MHx8MHx8fDA%3D'
    },
    {
     Id:Date.now(),
-    name:'Dr abdi',
+    name:'Drs Najma',
     specialist: 'Gynecologist',
     experience: 'Focused on women’s reproductive health, including menstrual issues, fertility, and prenatal care.',
-    src:'https://media.istockphoto.com/id/956401176/photo/portrait-of-happy-general-practitioner-pointing-with-finger.jpg?s=612x612&w=0&k=20&c=GOtyMLBlxffgau4f3brMNdkRJsd5jvJgxg-mNjpVF_w='
+    src:'https://images.unsplash.com/photo-1576669801945-7a346954da5a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D'
    },
    {
     Id:Date.now(),
-    name:'Dr abdi',
+    name:'Dr Hussein',
     specialist: 'Orthopedic Surgeon',
     experience: 'Skilled in treating musculoskeletal issues such as fractures, joint pain, and sports injuries through surgical and non-surgical methods.',
-    src:'https://media.istockphoto.com/id/956401176/photo/portrait-of-happy-general-practitioner-pointing-with-finger.jpg?s=612x612&w=0&k=20&c=GOtyMLBlxffgau4f3brMNdkRJsd5jvJgxg-mNjpVF_w='
+    src:'https://media.istockphoto.com/id/1047519500/photo/tell-me-if-this-hurts-at-all.jpg?s=612x612&w=0&k=20&c=EPa4ifEa_6XcHHCwsZj_BYDPPeDNfkdQtajkdGi99ks='
    },
    {
     Id:Date.now(),
-    name:'Dr abdi',
+    name:'Dr faarax ',
     specialist: 'Pulmonologist',
     experience: 'Expert in respiratory system conditions such as asthma, COPD, and chronic bronchitis.',
-    src:'https://media.istockphoto.com/id/956401176/photo/portrait-of-happy-general-practitioner-pointing-with-finger.jpg?s=612x612&w=0&k=20&c=GOtyMLBlxffgau4f3brMNdkRJsd5jvJgxg-mNjpVF_w='
+    src:'https://plus.unsplash.com/premium_photo-1658506671316-0b293df7c72b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZG9jdG9yfGVufDB8fDB8fHww'
    },
    
 ]
@@ -155,3 +159,37 @@ setInterval(() => {
 },3000)
 
 // home.style.backgroundImage=`url(${data[0].src})`
+
+// search form
+searchform.addEventListener('submit',function(e){
+    e.preventDefault();
+
+    let search = doct.filter(name =>name.specialist === Input.value )
+   const n = search.find(name => name)
+   const el = document.createElement('div')
+   el.classList.add('flex')
+   el.innerHTML=`
+        <div class="inf-img"> 
+             <img src=${n.src} alt="" >
+        </div
+         <p>${n.name}</p>
+         <p>${n.specialist}</p>
+         <button id="fl-btn">View More</button>
+   `
+//    console.log(n.src);
+
+   Divshow.appendChild(el)
+   Input.value =''
+
+})
+
+
+
+
+
+
+
+
+
+
+  
