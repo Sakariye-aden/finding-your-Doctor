@@ -191,6 +191,10 @@ function Handlebtn(btn ,id){
     let search = doct.filter(name => name.specialist == id.textContent)
     const Elem =search.find(name => name)
  
+   //  btn
+    btn.addEventListener('click', function(){
+        
+    })
 }
 
 
