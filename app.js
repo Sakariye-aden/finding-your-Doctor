@@ -193,7 +193,9 @@ function Handlebtn(btn ,id){
  
    //  btn
     btn.addEventListener('click', function(){
-        
+       const model  = document.querySelector("#model");
+      const modelContent = document.querySelector('#model-content');
+      
     })
 }
 
