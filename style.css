@@ -330,7 +330,14 @@ outline: 1px solid #9e9e9e;
     border-radius: 10px;
     background-color: #fff;
     color: black;
+    padding: 20px;
 }
+#model-content h3{
+    font-size: 1.8rem;
+    color: orange;
+    margin-bottom: 10px;
+}
+
 #model-content span{
     background-color:#299adc;
     color: #fff;
