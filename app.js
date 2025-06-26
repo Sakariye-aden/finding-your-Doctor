@@ -173,16 +173,18 @@ searchform.addEventListener('submit',function(e){
              <img src=${n.src} alt="" >
         </div
          <p>${n.name}</p>
-         <p>${n.specialist}</p>
+         <p id="special">${n.specialist}</p>
          <button id="fl-btn">View More</button>
    `
 //    console.log(n.src);
 
    Divshow.appendChild(el)
-   Input.value =''
+   Input.value ='';
+   // selecting element
+   let btn = el.querySelector('#fl-btn');
+   let special = el.querySelector('#special');
 
 })
-
 
 
 
