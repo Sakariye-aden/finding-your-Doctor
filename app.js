@@ -204,9 +204,14 @@ function Handlebtn(btn ,id){
         <div>Specialised in ${Elem.experience}</div>
      `
       const span = document.querySelector('#spanId')
+       clickSpan(span)
     })
 }
-
+function clickSpan(span){
+   span.addEventListener('click', function(){
+       model.style.display ='none'
+   })
+}
 
 
 
