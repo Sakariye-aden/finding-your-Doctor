@@ -199,9 +199,9 @@ function Handlebtn(btn ,id){
      model.style .display = 'block';
      modelContent.innerHTML=`
         <span id="spanId">&times;</span> 
-        <h3>Name : ${Elem.name}</h3>
+        <h3>Hi im ${Elem.name}</h3>
         <p>Specialist : ${Elem.specialist}</p>
-        <div>Experience ${Elem.experience}</div>
+        <div>Specialised in ${Elem.experience}</div>
      `
     })
 }
