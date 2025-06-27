@@ -212,7 +212,12 @@ function clickSpan(span){
        model.style.display ='none'
    })
 }
-
+// add to click window to cancell model
+window.addEventListener('click', (e)=>{
+  if(e.target === model){
+     model.style.display ='none'
+  }
+})
 
 
 
