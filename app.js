@@ -203,6 +203,7 @@ function Handlebtn(btn ,id){
         <p>Specialist : ${Elem.specialist}</p>
         <div>Specialised in ${Elem.experience}</div>
      `
+      const span = document.querySelector('#spanId')
     })
 }
 
