@@ -548,6 +548,19 @@ body.active #FormBooking textarea{
     #search-form{
         width: 90%;
     }
+     /* booking section */
+    #FormBooking{
+        padding-inline: 50px;
+    }
+    .flex-input{
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px 0px;
+    }
+    .flex-input div{
+        padding: 5px 0px;
+        width: 100%;
+    }
 }
 
 
@@ -572,5 +585,9 @@ body.active #FormBooking textarea{
      /* Doctors section */
     #model-content{
         margin: 30% auto;
+    }
+       /* booking section */
+     #FormBooking{
+        padding-inline: 30px;
     }
 }
