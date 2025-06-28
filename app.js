@@ -8,6 +8,7 @@ const  para = document.querySelector('#par');
 const  searchform = document.querySelector('#search-form');
 const  Input = document.querySelector('#Input');
 const  Divshow = document.querySelector('#Doctor-view');
+const  FormBooking = document.querySelector('#FormBooking');
 
 
 
