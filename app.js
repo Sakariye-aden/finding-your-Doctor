@@ -222,7 +222,16 @@ window.addEventListener('click', (e)=>{
 // showing thanks when booking submited
 FormBooking.addEventListener('submit', function(e){
    e.preventDefault();
-
+   // to show the thank
+  setTimeout(function(){
+      const mdl = document.querySelector('#mdl');
+      mdl.style.display = "block"
+   },600)
+   // to hide the thans
+   setTimeout(function(){
+      const mdl = document.querySelector('#mdl');
+      mdl.style.display = "none"
+   },3000)
 })
 
 
