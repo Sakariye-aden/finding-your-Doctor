@@ -459,7 +459,8 @@ body.active #FormBooking textarea{
     box-shadow: 0px 1px 8px rgba(0,0,0,0.2);
     border-radius: 5px;
     position: fixed;
-    top: 60px;
+    top: 70px;
+    z-index: 555;
     background-color: lightgreen;
     color: #fff;
 }
