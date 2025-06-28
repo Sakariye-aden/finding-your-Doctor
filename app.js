@@ -9,6 +9,7 @@ const  searchform = document.querySelector('#search-form');
 const  Input = document.querySelector('#Input');
 const  Divshow = document.querySelector('#Doctor-view');
 const  FormBooking = document.querySelector('#FormBooking');
+const  inputclass = document.querySelectorAll('.input-class');
 
 
 
@@ -232,6 +233,10 @@ FormBooking.addEventListener('submit', function(e){
       const mdl = document.querySelector('#mdl');
       mdl.style.display = "none"
    },3000)
+
+ inputclass[0].value =''
+ inputclass[1].value =''
+ inputclass[2].value =''
 })
 
 
