@@ -219,7 +219,11 @@ window.addEventListener('click', (e)=>{
      model.style.display ='none'
   }
 })
+// showing thanks when booking submited
+FormBooking.addEventListener('submit', function(e){
+   e.preventDefault();
 
+})
 
 
 
