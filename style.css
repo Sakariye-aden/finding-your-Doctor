@@ -385,6 +385,15 @@ outline: 1px solid #9e9e9e;
    width: 70%;  
     padding: 10px 0px;
 }
+#FormBooking .flex-input input{
+    padding: 10px;
+    display: block;
+    width: 100%;
+   border-radius: 5px;
+   outline: none;
+   font-size: 1rem;
+   border: 1px gray solid;
+}
 
 
 
