@@ -601,6 +601,11 @@ body.active #FormBooking textarea{
         padding: 5px 0px;
         width: 100%;
     }
+    /* consult section */
+    #consult .Box-1{
+        flex-direction: column;
+        gap: 30px;
+    }
 }
 
 
