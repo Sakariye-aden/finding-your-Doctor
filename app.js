@@ -233,10 +233,11 @@ FormBooking.addEventListener('submit', function(e){
       const mdl = document.querySelector('#mdl');
       mdl.style.display = "none"
    },3000)
-
+ const textarea = document.querySelector('#message');
  inputclass[0].value =''
  inputclass[1].value =''
  inputclass[2].value =''
+ textarea.value =''
 })
 
 
