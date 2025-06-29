@@ -443,7 +443,7 @@ body.active #FormBooking textarea{
     border: none;
     margin-block: 20px;
 }
-/* showing when form submit */
+/* showing popup  when form submit */
 #popup{
     display: flex;
     justify-content: center;
@@ -464,8 +464,21 @@ body.active #FormBooking textarea{
     background-color: lightgreen;
     color: #fff;
 }
-
-
+/* consult section */
+#consult{
+    background-color: #299adc;
+    color: #fff;
+    padding: 20px;
+}
+#consult .Box-1{
+    display: flex;
+    justify-content: space-between;
+}
+.Box-1 div h1{
+    margin-bottom: 10px;
+    font-size: 1.7rem;
+    font-weight: 500;
+}
 
 
 
