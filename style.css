@@ -479,7 +479,14 @@ body.active #FormBooking textarea{
     font-size: 1.7rem;
     font-weight: 500;
 }
-
+.Box-1 button{
+    padding: 15px 20px;
+    color: #fff;
+    background-color: #f85002;
+    border-radius: 5px;
+    font-size: 1rem;
+    border: none;
+}
 
 
 
