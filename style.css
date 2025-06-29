@@ -468,7 +468,8 @@ body.active #FormBooking textarea{
 #consult{
     background-color: #299adc;
     color: #fff;
-    padding: 20px;
+    padding: 30px 10px;
+    margin-block: 30px;
 }
 #consult .Box-1{
     display: flex;
