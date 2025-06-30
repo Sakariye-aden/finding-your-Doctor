@@ -15,6 +15,9 @@ const  consultInput = document.querySelector('#consultInput');
 const  showElement = document.querySelector('#showElement');
 const  inputBtn = document.querySelector('#inputBtn');
 
+// selecting FAQs 
+const content = document.querySelectorAll('#content');
+const span = document.querySelectorAll('#span');
 
 
 menu.addEventListener('click', function (){
