@@ -298,3 +298,7 @@ try {
     `
     showElement.appendChild(div)
   }
+
+//   adding prevent default in contact fornm
+const contactForm = document.querySelector('#contactForm');
+contactForm.addEventListener('submit',(e)=> e.preventDefault())
