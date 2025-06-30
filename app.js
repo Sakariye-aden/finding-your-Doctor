@@ -18,6 +18,17 @@ const  inputBtn = document.querySelector('#inputBtn');
 // selecting FAQs 
 const content = document.querySelectorAll('#content');
 const span = document.querySelectorAll('#span');
+// FAQS Contents
+span[0].addEventListener('click', function(){
+     content[0].classList.toggle('active')
+})
+span[1].addEventListener('click', function(){
+     content[1].classList.toggle('active')
+})
+span[2].addEventListener('click', function(){
+     content[2].classList.toggle('active')
+})
+
 
 
 menu.addEventListener('click', function (){
