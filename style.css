@@ -634,8 +634,15 @@ form button{
     color: #fff;
     margin-block: 20px;
 }
-
-
+footer{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer p{
+    font-size: 1.2rem;
+}
 
 
 
