@@ -488,6 +488,44 @@ body.active #FormBooking textarea{
     font-size: 1rem;
     border: none;
 }
+#showElement{
+    display: none;
+    margin-block: 40px;
+}
+#showElement.active {
+    display: block;
+}
+
+#showElement p {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+#showElement input{
+    padding: 5px 10px;
+    border-radius: 5px;
+   outline: none;
+   font-size: 1rem;
+   border: 1px gray solid;
+   margin-right: 5px;
+}
+#showElement button{
+    padding: 7px 20px;
+    border: none;
+    background-color:rgb(255, 167, 2);
+    color: #fff;
+}
+.medical{
+    padding: 10px;
+    margin: 15px;
+}
+.medical p{
+    font-weight: 500;
+    color: rgb(17, 17, 17);
+}
+.medical span{
+    font-weight: 300;
+    color: #fff;
+}
 
 
 
