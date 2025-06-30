@@ -281,19 +281,18 @@ try {
 	const response = await fetch(url, options);
 	const result = await response.json();
 	console.log(result);
-   displayResult(result)
+   displayResult(result.response)
 } catch (error) {
 	console.error(error);
 }
    consultInput.value=''
   })
 
-  function displayResult(doct){
+  function displayResult(result){
    const div = document.createElement('div');
     div.classList.add('medical');
     div.innerHTML =`
-       <p>massage : <span class="content-span">${doct.message}</span></p>
-       <p>recommendations: <span class="content-span">${doct.recommendations[0]}hello</span></p>
+       <p>massage : <span class="content-span">${result}</span></p>
 
     `
     showElement.appendChild(div)
