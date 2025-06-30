@@ -575,9 +575,33 @@ body.active #FormBooking textarea{
 #content.active .fa-angle-up{
     display: inline-block;
 }
-
-
-
+#contact{
+    height: 70vh;
+    padding: 30px 10px;
+}
+.controls{
+    display: flex;
+    gap: 20px;
+}
+.One{
+    width: 100%;
+}
+.One h3{
+    font-size: 1.4rem;
+    margin-block: 10px;
+}
+form{
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+}
+form input{
+    padding: 10px;
+    display: block;
+    width: 100%;
+    margin: 20px 0px;
+    outline: none;
+}
 
 
 
