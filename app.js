@@ -250,21 +250,17 @@ consultBtn.addEventListener('click',function(){
 })
 
 
-// buuton submit click event
+// inputbuuton add click event
   inputBtn.addEventListener('click',async function DataIpa(){
-  const url = 'https://ai-doctor-api-ai-medical-chatbot-healthcare-ai-assistant.p.rapidapi.com/chat?noqueue=1';
-const options = {
-	method: 'POST',
+  const url = `https://free-chatgpt-api.p.rapidapi.com/chat-completion-one?prompt=${consultInput.value}`;
+ const options = {
+	method: 'GET',
 	headers: {
 		'x-rapidapi-key': '6768778030mshc876ccacf122b5ep1655d5jsn80c07f388628',
-		'x-rapidapi-host': 'ai-doctor-api-ai-medical-chatbot-healthcare-ai-assistant.p.rapidapi.com',
-		'Content-Type': 'application/json'
-	},
-	 body: JSON.stringify({
-		message: `What are the common symptoms of ${consultInput.value}?`,
-		specialization: 'general',
-		language: 'en'
-	})
+		'x-rapidapi-host': 'free-chatgpt-api.p.rapidapi.com',
+      'X-RateLimit-Reset': 1691172000
+
+	}
 };
 
 try {
@@ -284,6 +280,7 @@ try {
     div.innerHTML =`
        <p>massage : <span class="content-span">${doct.message}</span></p>
        <p>recommendations: <span class="content-span">${doct.recommendations[0]}hello</span></p>
+
     `
     showElement.appendChild(div)
   }
