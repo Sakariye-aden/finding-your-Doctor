@@ -10,6 +10,10 @@ const  Input = document.querySelector('#Input');
 const  Divshow = document.querySelector('#Doctor-view');
 const  FormBooking = document.querySelector('#FormBooking');
 const  inputclass = document.querySelectorAll('.input-class');
+const  consultBtn = document.querySelector('#consult-btn');
+const  consultInput = document.querySelector('#consultInput');
+const  showElement = document.querySelector('#showElement');
+const  inputBtn = document.querySelector('#inputBtn');
 
 
 
@@ -240,8 +244,46 @@ FormBooking.addEventListener('submit', function(e){
  textarea.value =''
 })
 
+// adding consult button function
+consultBtn.addEventListener('click',function(){
+   showElement.classList.toggle('active')
+})
 
 
+// buuton submit click event
+  inputBtn.addEventListener('click',async function DataIpa(){
+  const url = 'https://ai-doctor-api-ai-medical-chatbot-healthcare-ai-assistant.p.rapidapi.com/chat?noqueue=1';
+const options = {
+	method: 'POST',
+	headers: {
+		'x-rapidapi-key': '6768778030mshc876ccacf122b5ep1655d5jsn80c07f388628',
+		'x-rapidapi-host': 'ai-doctor-api-ai-medical-chatbot-healthcare-ai-assistant.p.rapidapi.com',
+		'Content-Type': 'application/json'
+	},
+	 body: JSON.stringify({
+		message: `What are the common symptoms of ${consultInput.value}?`,
+		specialization: 'general',
+		language: 'en'
+	})
+};
 
+try {
+	const response = await fetch(url, options);
+	const result = await response.json();
+	console.log(result);
+   displayResult(result)
+} catch (error) {
+	console.error(error);
+}
+   consultInput.value=''
+  })
 
-  
+  function displayResult(doct){
+   const div = document.createElement('div');
+    div.classList.add('medical');
+    div.innerHTML =`
+       <p>massage : <span class="content-span">${doct.message}</span></p>
+       <p>recommendations: <span class="content-span">${doct.recommendations[0]}hello</span></p>
+    `
+    showElement.appendChild(div)
+  }
