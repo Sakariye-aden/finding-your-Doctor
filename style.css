@@ -526,7 +526,55 @@ body.active #FormBooking textarea{
     font-weight: 300;
     color: #fff;
 }
+/* FAQS */
+#FAQ{
+    height: 50vh;
+    padding-block: 30px;
+}
+#FAQ .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
 
+#content{
+    width: 90%;
+    max-width: 600px;
+    border: 1px solid;
+}
+#content:hover h2{
+    cursor: pointer;
+}
+#content.active h2{
+    background-color: #118ac2;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+
+#content h2{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#content.active p{
+    display: block;
+    padding: 10px;
+}
+#content p{
+    display: none;
+}
+#content .fa-angle-up{
+    display: none;
+}
+#content.active .fa-angle-down{
+    display: none;
+}
+#content.active .fa-angle-up{
+    display: inline-block;
+}
 
 
 
