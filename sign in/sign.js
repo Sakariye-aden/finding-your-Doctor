@@ -71,6 +71,7 @@ authForm.addEventListener('submit', function (e){
      users.push(user)
       localStorage.setItem('users', JSON.stringify(users))  
       alert('registration succesfullly')
+       switchBtn()
    }
 
 
