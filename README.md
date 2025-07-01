@@ -4,7 +4,7 @@ A responsive and user-friendly healthcare web application that helps users **fin
 
 ## 🌐 Live Demo
 
-[Visit the Live Site](#) <!-- Replace with your deployed link -->
+[Visit the Live Site](https://medical-assist.vercel.app) <!-- Replace with your deployed link -->
 
 ---
 
