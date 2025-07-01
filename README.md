@@ -42,7 +42,7 @@ A responsive and user-friendly healthcare web application that helps users **fin
 ## 📷 Screenshots
 
 <!-- Add screenshots of your homepage, booking UI, and dark/light themes -->
-![alt text](snip-8.PNGsnip-6.PNG)
+![alt text](snip-8.PNG,snip-6.PNG)
 
 ---
 
